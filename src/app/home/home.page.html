@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Pantalla 1
+    </ion-title>
+    <div style="float: right;">
+      <ion-button (click)="irAtras()" routerDirection="forward">Volver</ion-button>
+    </div>
+  </ion-toolbar>
+ </ion-header>
+  
+ <ion-content>
+  <div class="ion-padding">
+    <ion-button (click)="goToPantalla2()" routerDirection="forward">Ir a la Pantalla 2</ion-button>
+    <ion-button (click)="goToPantalla3()" routerDirection="forward">Ir a la Pantalla 3</ion-button>
+    <ion-button (click)="goToPantalla4()" routerDirection="forward">Ir a la Pantalla 4</ion-button>
+    <ion-button (click)="goToPantalla5()" routerDirection="forward">Ir a la Pantalla 5</ion-button>
+  </div>
+</ion-content>
